@@ -15,7 +15,7 @@ export function ToastProvider({ position = "top-right" }) {
       toastOptions={{
         duration: 4000,
         className:
-          "!bg-white !text-foreground !border !border-primary/10 !shadow-md !rounded-lg !text-sm !font-medium",
+          "!bg-surface !text-foreground !border !border-primary/10 !shadow-md !rounded-lg !text-sm !font-medium",
         success: {
           iconTheme: {
             primary: "#546B41",

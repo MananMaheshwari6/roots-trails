@@ -3,7 +3,7 @@
 export default function LoginPage() {
   return (
     <main className="max-w-md mx-auto px-4 py-20 bg-background">
-      <div className="bg-white border border-primary/10 rounded-2xl p-8 shadow-sm space-y-6">
+      <div className="bg-surface border border-primary/10 rounded-2xl p-8 shadow-sm space-y-6">
         <div className="text-center space-y-2">
           <h1 className="text-2xl font-bold font-serif text-foreground">
             Welcome Back
@@ -39,7 +39,7 @@ export default function LoginPage() {
           
           <button
             type="submit"
-            className="w-full py-3 bg-primary text-background font-medium rounded-lg hover:bg-primary/95 transition-all duration-300 cursor-pointer text-sm"
+            className="w-full py-3 bg-primary text-primary-foreground font-medium rounded-lg hover:bg-primary/95 transition-all duration-300 cursor-pointer text-sm"
           >
             Sign In
           </button>

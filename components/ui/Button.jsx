@@ -25,9 +25,9 @@ export default function Button({
 
   const variantStyles = {
     primary:
-      "bg-primary text-background shadow-sm hover:bg-primary/95 active:translate-y-0",
+      "bg-primary text-primary-foreground shadow-sm hover:bg-primary/95 active:translate-y-0",
     secondary:
-      "bg-secondary text-background shadow-sm hover:bg-secondary/90 active:translate-y-0",
+      "bg-secondary text-primary-foreground shadow-sm hover:bg-secondary/90 active:translate-y-0",
     outline:
       "border-2 border-primary text-primary bg-transparent hover:bg-primary/5 active:translate-y-0",
   };

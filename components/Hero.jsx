@@ -26,7 +26,7 @@ export default function Hero() {
 
           {/* CTA Buttons */}
           <div className="mt-10 flex flex-col sm:flex-row justify-center items-center gap-4">
-            <button className="w-full sm:w-auto px-8 py-4 bg-primary text-background font-medium rounded-lg shadow-md hover:bg-primary/95 transition-all duration-300 transform hover:-translate-y-0.5 active:translate-y-0 cursor-pointer">
+            <button className="w-full sm:w-auto px-8 py-4 bg-primary text-primary-foreground font-medium rounded-lg shadow-md hover:bg-primary/95 transition-all duration-300 transform hover:-translate-y-0.5 active:translate-y-0 cursor-pointer">
               Explore Homestays
             </button>
             <button className="w-full sm:w-auto px-8 py-4 border-2 border-primary text-primary font-medium rounded-lg hover:bg-primary/5 transition-all duration-300 cursor-pointer">

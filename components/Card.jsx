@@ -1,6 +1,6 @@
 export default function Card({ image, title, description }) {
   return (
-    <div className="group flex flex-col bg-white border border-primary/10 rounded-2xl overflow-hidden shadow-sm hover:shadow-md hover:border-primary/20 transition-all duration-300">
+    <div className="group flex flex-col bg-surface border border-primary/10 rounded-2xl overflow-hidden shadow-sm hover:shadow-md hover:border-primary/20 transition-all duration-300">
       {/* Image Container */}
       <div className="relative aspect-[4/3] w-full overflow-hidden bg-primary/5">
         {image ? (

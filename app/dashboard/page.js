@@ -11,7 +11,7 @@ export default function DashboardPage() {
           </p>
         </div>
         
-        <div className="bg-white border border-primary/10 rounded-2xl p-8 shadow-sm">
+        <div className="bg-surface border border-primary/10 rounded-2xl p-8 shadow-sm">
           <p className="text-foreground/80 leading-relaxed font-light">
             Welcome back to Roots & Trails. You currently have no active bookings or upcoming trips. Explore our featured experiences to start planning your next journey.
           </p>

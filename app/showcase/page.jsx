@@ -46,7 +46,7 @@ export default function ShowcasePage() {
 
   return (
     <main className="pb-20 bg-background">
-      <section className="border-b border-primary/5 bg-white/40 py-16">
+      <section className="border-b border-primary/5 bg-surface/40 py-16">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <span className="inline-block px-3 py-1 text-xs font-semibold tracking-wider text-primary uppercase bg-primary/15 rounded-full mb-4">
             Week 3 SIP
@@ -62,7 +62,7 @@ export default function ShowcasePage() {
 
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 mt-12 space-y-12">
         {/* Buttons */}
-        <section className="bg-white border border-primary/10 rounded-2xl p-6 sm:p-8 shadow-sm">
+        <section className="bg-surface border border-primary/10 rounded-2xl p-6 sm:p-8 shadow-sm">
           <h2 className="text-xl font-bold font-serif text-foreground mb-6">Buttons</h2>
 
           <div className="space-y-6">
@@ -94,7 +94,7 @@ export default function ShowcasePage() {
         </section>
 
         {/* Input */}
-        <section className="bg-white border border-primary/10 rounded-2xl p-6 sm:p-8 shadow-sm">
+        <section className="bg-surface border border-primary/10 rounded-2xl p-6 sm:p-8 shadow-sm">
           <h2 className="text-xl font-bold font-serif text-foreground mb-6">Input</h2>
           <div className="max-w-md space-y-4">
             <Input
@@ -114,7 +114,7 @@ export default function ShowcasePage() {
         </section>
 
         {/* Loader */}
-        <section className="bg-white border border-primary/10 rounded-2xl p-6 sm:p-8 shadow-sm">
+        <section className="bg-surface border border-primary/10 rounded-2xl p-6 sm:p-8 shadow-sm">
           <h2 className="text-xl font-bold font-serif text-foreground mb-6">Loader</h2>
           <div className="flex flex-wrap items-center gap-8">
             <Loader size="sm" label="Loading small" />
@@ -130,7 +130,7 @@ export default function ShowcasePage() {
         </section>
 
         {/* Toast */}
-        <section className="bg-white border border-primary/10 rounded-2xl p-6 sm:p-8 shadow-sm">
+        <section className="bg-surface border border-primary/10 rounded-2xl p-6 sm:p-8 shadow-sm">
           <h2 className="text-xl font-bold font-serif text-foreground mb-6">Toast</h2>
           <div className="flex flex-wrap gap-3">
             <Button variant="primary" onClick={() => handleShowToast("default")}>
@@ -149,7 +149,7 @@ export default function ShowcasePage() {
         </section>
 
         {/* Modal */}
-        <section className="bg-white border border-primary/10 rounded-2xl p-6 sm:p-8 shadow-sm">
+        <section className="bg-surface border border-primary/10 rounded-2xl p-6 sm:p-8 shadow-sm">
           <h2 className="text-xl font-bold font-serif text-foreground mb-6">Modal</h2>
           <Button variant="primary" onClick={() => setIsModalOpen(true)}>
             Open Modal

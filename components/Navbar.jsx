@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import ThemeToggle from "@/components/ThemeToggle";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -26,8 +27,8 @@ export default function Navbar() {
           </div>
 
           {/* Desktop Nav Links */}
-          <div className="hidden md:block">
-            <div className="ml-10 flex items-center space-x-8">
+          <div className="hidden md:flex md:items-center md:gap-6">
+            <div className="flex items-center space-x-8">
               {navLinks.map((link) => (
                 <Link
                   key={link.name}
@@ -38,10 +39,12 @@ export default function Navbar() {
                 </Link>
               ))}
             </div>
+            <ThemeToggle />
           </div>
 
           {/* Mobile Menu Button */}
-          <div className="-mr-2 flex md:hidden">
+          <div className="-mr-2 flex items-center gap-1 md:hidden">
+            <ThemeToggle />
             <button
               onClick={() => setIsOpen(!isOpen)}
               type="button"

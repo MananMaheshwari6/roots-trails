@@ -63,7 +63,7 @@ export default function Modal({ isOpen, onClose, title, children, className = ""
         role="dialog"
         aria-modal="true"
         aria-labelledby={titleId}
-        className={`relative z-10 w-full max-w-lg rounded-2xl border border-primary/10 bg-white p-6 shadow-xl ${className}`}
+        className={`relative z-10 w-full max-w-lg rounded-2xl border border-primary/10 bg-surface p-6 shadow-xl ${className}`}
       >
         <div className="flex items-start justify-between gap-4 mb-4">
           <h2 id={titleId} className="text-xl font-bold font-serif text-foreground">
